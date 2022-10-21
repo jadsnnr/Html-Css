@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        
+        html,body{
+            text-align: center;
+            font-family: 'Roboto Slab', serif;
+            
+        }
+        
+        body{
+            background-image: linear-gradient(#BE3490,#D82F75,#EA4D4D,#F8792B,yellow);
+            background-attachment: fixed;
+        }
+
+        main{
+            background-color: white;
+            width: 60vw;
+            height: 35vh;
+            border-radius: 15px;
+            margin: 40px;
+            text-align: center;
+            position: relative;
+            bottom: 50%;
+            left: 12%;
+        }
+       
+        h6{
+            font-size: 2.5em;
+            color: white;
+            text-align: center;
+            
+        }
+
+        div{
+            font-weight: bold;
+            padding-top: 10px;
+            margin: 9px 1px 6px 5px;
+            position: relative;
+            text-align: center;
+        }
+        div>input{
+            border-radius: 5px;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+        .buttons{
+            background-color: lightslategray;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h6>Cadastre-se</h6>
+        <main>
+            <form action="cadastro.php" autocomplete="off"  method="post">
+                <div><label for="ilog"></label>
+                    <input type="text" name="log" id="ilog"> 
+                </div>
+
+                <div><label for="ipas"></label>
+                    <input type="password" name="pas"   id="ipas">
+                </div>
+
+                <div>
+                    <input class="buttons" type="reset" value="Limpar">
+                    <input class="buttons" type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </main>
+    
+</body>
+</html>
