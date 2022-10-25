@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px){
+    header h1{
+        text-align: left;
+        font-size: 2em;
+    }
+    menu>a{
+    position: relative;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.932);
+    border: 1px solid rgba(211, 211, 211, 0.301);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    }
+
+    input{display: none;}
+    .hamburguer{display: none;}
+}
